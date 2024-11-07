@@ -185,7 +185,7 @@ static int sd_read(uint32_t len) {
     sleep_us(10);
     gpio_put(CS_PIN, 1);
 
-    printbuf(sd_card.in_buf, len);
+    //printbuf(sd_card.in_buf, len);
 
     return ret;
 }
